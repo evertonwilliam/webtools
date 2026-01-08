@@ -1,0 +1,21 @@
+name: Check de Qualidade
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Verificar arquivos obrigatórios
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f script.js

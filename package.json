@@ -1,0 +1,28 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Projeto simples de calculadora em HTML, CSS e JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertonwilliam/webtools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/evertonwilliam/webtools/issues"
+  },
+  "homepage": "https://github.com/evertonwilliam/webtools#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4"
+  }
+}

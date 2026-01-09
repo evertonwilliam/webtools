@@ -19,5 +19,6 @@ Aprender Git, GitHub, versionamento e deploy automático de forma profissional.
 - JavaScript
 
 ## Processos
+
 - Teste completo
 - Poll Request obrigatório

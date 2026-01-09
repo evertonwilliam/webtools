@@ -19,9 +19,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22   # ou 2222, conforme seu servidor
           source: "."
           target: "public_html/webtools"

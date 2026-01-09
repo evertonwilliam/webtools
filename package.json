@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Projeto simples de calculadora em HTML, CSS e JavaScript.",
   "main": "script.js",
+  "type": "module",
   "scripts": {
+    "prepare": "husky",
     "lint": "eslint .",
     "format": "prettier --write ."
-    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/evertonwilliam/webtools/issues"
   },
@@ -29,6 +29,4 @@
     "husky": "^9.1.7",
     "prettier": "^3.7.4"
   }
-}
-
 }

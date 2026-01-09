@@ -5,7 +5,7 @@ let currentValue = '';
 let operator = '';
 let previousValue = '';
 
-buttons.forEach(button => {
+buttons.forEach((button) => {
   button.addEventListener('click', () => {
     const value = button.textContent;
 
@@ -26,10 +26,18 @@ buttons.forEach(button => {
       const b = parseFloat(currentValue);
 
       switch (operator) {
-        case '+': result = a + b; break;
-        case '-': result = a - b; break;
-        case '×': result = a * b; break;
-        case '÷': result = a / b; break;
+        case '+':
+          result = a + b;
+          break;
+        case '-':
+          result = a - b;
+          break;
+        case '×':
+          result = a * b;
+          break;
+        case '÷':
+          result = a / b;
+          break;
       }
 
       display.textContent = result;
